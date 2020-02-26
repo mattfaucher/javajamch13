@@ -1,0 +1,186 @@
+* {
+    box-sizing: border-box;
+}
+
+audio {
+    display: block;
+    top-margin: 1em;
+    background-color: #D2B48C;
+    width: 200px;
+    height: 50px;
+    margin-top: 12px;
+}
+
+body {
+    background-color: #fcebb6;
+    background-image: url(images/background.gif);
+    color: #221811;
+    font-family: Verdana, Arial, sans-serif;
+}
+
+main {
+    padding: 0em 0em 0em;
+    margin-left: 200px;
+    background-color: #FEF6C2;
+}
+
+h2, h3, h4, p, ul, dl {
+    padding-right: 2em;
+    padding-left: 3em;
+}
+
+header {
+    background-color: #d2b48c;
+    height: 150px;
+    background-image: url(images/javajamlogo.jpg);
+    background-repeat: no-repeat;
+}
+
+h1 {
+    padding-top: 45px;
+    padding-left: 220px;
+    font-size: 3em;
+}
+
+h4 {
+    background-color: #D2B48C;
+    font-size: 1.2em;
+    padding-left: .5em;
+    padding-bottom: 0.25em;
+    text-transform: uppercase;
+    border-bottom: 1px;
+    padding-bottom: 0px;
+    clear: left;
+}
+
+nav {
+    float: left;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding-top: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+nav a:link {
+    color: #FEF6C2;
+}
+
+nav a:visited {
+    color: #D2B48C;
+}
+
+nav a:hover {
+    color: #CC9933;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-left: 0px;
+}
+
+footer {
+    padding-bottom: 10px;
+    border-top: 2px;
+    border-style: solid;
+    border-color:#221811;
+    background-color: #d2b48c;
+    font-size: 0.6em;
+    font-style: italic;
+    text-align: center;
+}
+
+table {
+    align: center;
+    width: 90%;
+    margin: auto;
+    border-collapse: collapse;
+    line-height: 35px;
+}
+
+th {
+    text-align: center;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}
+
+tr:nth-of-type(odd) {
+    background-color: #D2B48E;
+}
+
+#wrapper {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #231814;
+    min-width: 900px;
+    max-width: 1280px;
+    box-shadow: 3px 2px 2px;
+}
+
+#heroroad {
+    background-image: url(images/heroroad.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+
+#heromugs {
+    background-image: url(images/heromugs.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+
+#heroguitar {
+    background-image: url(images/heroguitar.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+
+#herojobs {
+    background-image: url(images/herojobs.jpg);
+    background-size: 100%;
+    height: 250px;
+}
+
+form {
+    padding: 2em;
+}
+
+label {
+    float: left;
+    display: block;
+    text-align: right;
+    width: 8em;
+    padding-right: 1em;
+}
+
+input, textarea {
+    display: block;
+    margin-bottom: 1em;
+}
+
+#mysubmit {
+    margin-left: 9.5em;
+
+}
+
+.details {
+    padding-left: 20%;
+    padding-right: 20%;
+    overflow: auto;
+}
+
+.floatleft {
+    float: left;
+    padding-right: 2em;
+    padding-bottom: 2em;
+}
+
+header, nav, main, footer {display: block;}

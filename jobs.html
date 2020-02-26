@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="JavaJam Coffee House a sublte yet refreshing change
+													of pace with live music and great coffe!">
+		<title>Jobs at JavaJam</title>
+        <link rel="stylesheet" href="javajam.css">
+	</head>
+<body>
+    <div id="wrapper">
+		<header>
+			<h1>JavaJam Coffee House</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="menu.html">Menu</a></li>
+				<li><a href="music.html">Music</a></li>
+				<li><a href="jobs.html">Jobs</a></li>
+			</ul>
+		</nav>
+		<main>
+            <div id="herojobs"></div>
+            <h2>Jobs at JavaJam</h2>
+            <p>Want to work at JavaJam? Fill out the form below to start your application. Required forms are marked with an asterisk (*).</p>
+	            <form id="jobform" method="post" action="http://webdevbasics.net/scripts/javajam8.php">
+	            	<label for="myName">*Name:</label>
+	            	<input type="text" id="myName" name="myName" value="Name..." required="true">
+	            	<label for="myEmail">*E-Mail:</label>
+	            	<input type="email" id="myEmail" name="myEmail" value="Email..." required="true">
+	            	<label for="myWork">*Experience:</label>
+	            	<textarea id="myWork" rows="2" cols="20" required="true"></textarea>
+	            	<input type="submit" id="mySubmit" value="Apply Now">
+	            </form>
+            <br>
+			<footer>
+                Copyright &copy 2018 JavaJam Coffee House
+                <br>
+                <a href="matt@faucher.com">matt@faucher.com</a>
+			</footer>
+		</main>
+    </div>
+	</body>
+</html>
